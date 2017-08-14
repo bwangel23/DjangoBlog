@@ -35,7 +35,6 @@ class APIGateMiddleware(MiddlewareMixin):
                 id=REQUEST_THREAD_LOCAL.request_id, ip=request.ip)
         )
 
-
     def process_response(self, request, response):
         """拦截所有request出去, 把request_id和此次访问所耗时间打印到log"""
         duration = int(

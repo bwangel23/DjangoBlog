@@ -24,7 +24,7 @@ LOGGING = {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
             'encoding': 'utf8',
-            'filename': '/tmp/facelive.log',
+            'filename': './blog.log',
             'formatter': 'verbose',
             'filters': ['add_request_info'],
         },
