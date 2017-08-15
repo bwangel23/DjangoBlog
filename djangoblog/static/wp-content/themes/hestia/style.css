@@ -1488,7 +1488,7 @@ body:not(.home) .navbar-default .navbar-nav > .active > a, body:not(.home) .navb
   padding-bottom: 15px;
   border-radius: 3px;
   color: inherit;
-  font-size: 12px;
+  font-size: 21px;
   font-weight: 400;
   text-transform: uppercase;
 }
